@@ -61,7 +61,11 @@
 	  padding: 20px;
 	  padding-bottom: 10px;
 		padding-top: 10px;
-		 background-image: linear-gradient(to right,#0b2562,#0b4664,#0b2562); 
+	background-image: -webkit-linear-gradient(to right,#0b2562,#0b4664,#0b2562);
+	background-image: -o-linear-gradient(to right,#0b2562,#0b4664,#0b2562);
+	background-image: -moz-linear-gradient(to right,#0b2562,#0b4664,#0b2562);
+	background-image: linear-gradient(to right,#0b2562,#0b4664,#0b2562);
+}
     }
 
 	.header_con {
@@ -76,10 +80,12 @@
 		float:left;
 		height:80px;
 		width: 300px;
+		
 	}
 	.right_logo_img {
 		float:right;
 		height:80px;
+		display: inline-block;
 	}
 	@media only screen and (max-width: 600px) {
 			.right_logo_img {
