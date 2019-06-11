@@ -1,6 +1,409 @@
-/* Styles go here */
-h1{ 
-	color:red;
+*,body {
+		padding: 0;
+		margin: 0;
+		color: white;
+	
+	}
+	
+	.bg-modal {
+		width:100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.7);
+		position: absolute;
+		top: 0;
+		z-index: 99;
+		display:flex;
+		justify-content: center;
+		align-items: center;
+		padding: 10%;
+	}
+	.model-content {
+		margin:auto;
+		background-color: none;
+	}
+	
+	.logo_bar{
+		margin: 0;
+		padding: 0;
+		float:left;
+		#background-color: yellow;
+		overflow:hidden;
+	}
+	.logo_img1 {
+		float:left;
+		
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width:120px; 
+		height:100px; 
+		background-color:; 
+		padding-right:20px; 
+		margin-left: 30px;
+	}
+	.logo_img2 {
+		
+		float:left;
+		margin-top: 5px;
+		margin-bottom: 5px;
+		width:200px;
+		height:80px; 
+		margin-top:14px; 
+		padding-left:20px; 
+		background-color:; 
+		border-left: 1px solid blue;
+
+	}
+
+	.jumbotron {
+      margin-bottom: 0;
+	  padding: 20px;
+	  padding-bottom: 10px;
+		padding-top: 10px;
+    }
+	.header_con {
+		margin:0px;
+		padding:0px;
+	}
+	.container > img {
+		height:50px;
+		width: 200px;
+	}
+	.left_logo_img {
+		float:left;
+	}
+	
+	.navbar,.nav-inverse,.container-fluid {
+		min-height: 30px;
+		padding-bottom: 0px;
+		padding-top: 0px;
+		background-color: #32485d;
+		margin: 0px;
+		border:0;
+		color: #fff;
+		position: relative;
+	}
+	
+	.nav li {
+		color: white;
+	}
+	.nav li a {
+		padding: 12px;
+		padding-bottom: 8px;
+		padding-top: 8px;
+		font-size: 18px;
+		
+		color: white;
+		
+	}
+	.navbar-inverse .navbar-nav>li>a {
+	
+		color: white;
+	}
+	
+	.carousel, .slide, .carousel-inner,.item {
+		
+		height: 200px;
+	}
+	.carousel-inner >.item > img {
+		height: 100%;
+		width: 100%;
+	}
+	
+	/* .triangle-right {
+		padding: 0px;
+		margin: 0px;
+		display: inline-block;
+		width: 0;
+		height: 0;
+		border-top: 20px solid transparent;
+		border-left: 40px solid #555;
+		border-bottom: 20px solid transparent;
+	}
+			
+	.news_cover p {		
+		border-top: 18px solid #3878ad;
+		border-left: 15px solid #f2a52f;
+		border-bottom: 17px solid #3878a8;
+		content: "";
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+	
+	#ticker_container {
+	margin-top: 6px;
+} */
+
+.news_cover h2 {
+	color: #777777;
+    #background: #e8e9eb;
+	background: #e6e6e6;
+    margin: 0 0;
+    font-size: 14px;
+    text-align: center;
+    width: auto;
+    position: relative;
+    height: 35px;
+    margin-right: 0%;
+    padding-top: 12px;
+    font-weight: bold;
+}
+
+.news_cover h2::after {
+	border-top: 18px solid #32485d;
+    border-left: 15px solid #e8e9eb;
+    border-bottom: 17px solid #32485d;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#ticker_container {
+	margin-top: 9px;
+}
+
+#ticker {
+	background: #3878a8 !important;
+}
+
+#newscontent {
+	margin-right: 10px;
+	float: left;
+}
+
+#newscontent a {
+	color: #fff;
+}
+
+#news {
+	display: none;
+}
+
+#controls {
+	float: right;
+	height: 16px;
+}
+
+#news {
+	display: none;
+}
+
+.news_tricker {
+	width: 100%;
+    background: #32485d;
+    height: 36px;
+}
+.hearing_main {
+	color: #777777;    
+	#background: #e8e9eb;  
+	background: #e6e6e6;
+	margin: 0 0;    
+	font-size: 14px;    
+	text-align: center;    
+	width: auto;    
+	position: relative;    
+	height: 35px;    
+	margin-right: 0%;    
+	padding-top: 8px;    
+	font-weight: bold;
+}
+
+.hearing_main a{text-decoration: none !important;
+    color: #777777;
+    padding: 0px;
+    display: block;}
+    
+.hearing_main a:hover {
+	color: #ffffffbd;
+}
+.no-padding{
+		padding:0px;
+}
+
+
+.bann_column1 {
+	
+	
+	padding:0px ; 
+	margin-bottom:20px; 
+	
+}
+
+.tab_block_row {
+	background: #e6e6e6;	
+	margin: 0px;
+	padding:0px;
+	box-shadow: 1px 2px 7px #757575;
+}
+.tab_block {
+	background-color: white;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid #777777;
+	border-radius: 15px;
+	padding: 12px 0px;
+	min-height: 140px;
+}
+.img_block {
+	text-align: center;
+	#background-color: red;
+	margin-bottom: 20px;
+}
+.img_block>img {
+	margin:auto;
+	height: 50px;
+}
+.info_block> h4{
+	width:75%;
+	margin: auto;
+}
+
+
+
+.bann_column2 {
+	
+	padding-right: 15px; padding-left: 15px; margin-bottom:20px;
+}
+.chairman_block{
+	width:85%; 
+	margin:auto;
+	background-color: #EEEEEE;
+	overflow: hidden;
+	text-align: center;
+	padding: 2px;
+	#border: 1px solid #777777;
+	#border-radius: 15px;
+	#padding: 12px 0px;
+	min-height: 140px;
+	box-shadow: 1px 2px 7px #757575;
+}
+.chairman_img_block>img {
+	margin:auto;
+	height: 150px;
+	width:100%;
+	border-radius: 5px;
+}	
+.info_block> h5{
+	margin: 2px;
+	margin-top:10px;
+	margin-bottom: 5px;
+}
+.info_block> h6{
+	margin: 2px;
+	margin-top:5px;
+	margin-bottom: 5px;
+}
+.bann_column3 {
+
+	padding-right: 15px; padding-left: 15px; margin-bottom:20px; 
+}
+.member_block{
+	width:95%; 
+	margin:auto;
+	background-color: #EEEEEE;
+	overflow: hidden;
+	text-align: center;
+	padding: 2px;
+	min-height: 140px;
+	box-shadow: 1px 2px 7px #757575;
+}	
+.mem_img_block>img{
+	margin:auto;
+	height: 70px;
+	width:auto;
+	border-radius: 5px;
+}
+
+.notice_block_row {
+	#background: #e6e6e6;	
+	margin: 0px;
+	padding:0px;
+	padding: 0px 0px 0px 0px;
+	#box-shadow: 1px 2px 7px #757575;
+	
+}
+
+.notice_block {
+	background-color: white;
+	overflow: hidden;
+	text-align: center;
+	border: 1px solid #32485d;
+	border-radius: 15px;
+	padding: 0px 0px;
+	min-height: 140px;
+	box-shadow: 1px 2px 7px #757575;
+}
+.head_block {
+	margin:0px;
+	padding: 10px;
+	background-color: #32485d;
+}
+
+.head_block>h4 {
+	margin:0px;
+}
+
+.cont_block {
+	
+	height: 300px;
+	
+}
+.help_block {
+	
+	text-align: left;
+	color: #32192e;
+	padding: 0px 20px 0px 20px;
 
 }
 
+.sub_help_block {
+	margin: 0px;
+	padding: 10px;
+	
+}
+.sub_help_block>h5{
+		color:#32192e;
+		margin: 0px;
+		
+}
+
+.footer_logo_ul {
+	list-style: none;
+	display: inline-block;
+}
+
+.footer_logo{
+	display: inline-block;
+	padding: 0px 20px;
+	
+}
+.footer_logo>img{
+	height: 80px;
+}
+@media only screen and (max-width: 990px) {
+	.tab_block_row {
+		width:90%;
+		margin: auto;
+	}
+	.bann_column2 {
+		padding: 0px;	
+	}
+	.chairman_block{
+		width:90%; 
+		margin:auto;
+	}
+	.chairman_img_block>img {
+		margin:auto;
+		height: 150px;
+		width:auto;
+		border-radius: 5px;
+	}
+	.bann_column3 {
+		padding: 0px;	
+	}
+	.member_block{
+		width:90%; 
+		margin:auto;
+	}
+}
