@@ -24,38 +24,7 @@
 	
 /* Top banner css code starts here */
 
-	.logo_bar{
-		margin: 0;
-		padding: 0;
-		float:left;
-		#background-color: yellow;
-		overflow:hidden;
-	}
-	.logo_img1 {
-		float:left;
-		
-		margin-top: 5px;
-		margin-bottom: 5px;
-		width:120px; 
-		height:100px; 
-		background-color:; 
-		padding-right:20px; 
-		margin-left: 30px;
-	}
-	.logo_img2 {
-		
-		float:left;
-		margin-top: 5px;
-		margin-bottom: 5px;
-		width:200px;
-		height:80px; 
-		margin-top:14px; 
-		padding-left:20px; 
-		background-color:; 
-		border-left: 1px solid blue;
-
-	}
-
+	
 	.jumbotron {
       margin-bottom: 0;
 	  padding: 20px;
@@ -68,11 +37,7 @@
 }
     }
 
-	.header_con {
-		width:100%;
-		margin:0px;
-		#padding:0px;
-	}
+
 	.container > img {
 		
 	}
@@ -336,8 +301,9 @@
 .mem_img_block>img{
 	margin:auto;
 	height: 70px;
-	width:auto;
+	width:62px;
 	border-radius: 5px;
+	box-shadow: 1px 2px 7px #757575;
 }
 
 /* banner css code ends here*/
@@ -554,10 +520,12 @@
 
 .footer_logo_ul {
 	list-style: none;
-	display: inline-block;
+	overflow:hidden;
+	display: block;
 }
 
 .footer_logo{
+	float: right;
 	display: inline-block;
 	padding: 0px 20px;
 	
